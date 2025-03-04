@@ -286,43 +286,43 @@
             </div>
           </article>
         </div>
-        <form>
-          <div class="form__group">
-            <label for="name">Name</label>
-            <input type="text" placeholder="Enter Your Name" name="patients name" id="name" required>
-          </div>
-          <div class="form__group">
-            <label for="phone">Phone Number</label>
-            <input type="number" placeholder="Enter Your Number" name="phone number" id="phone" required>
-          </div>
-          <div class="form__group">
-            <label for="date">Date</label>
-            <input type="date" placeholder="choose a date" name="date" id="date" required>
-          </div>
-          <div class="form__group">
-            <label for="department">Select Department</label>
-            <select name="department" id="department" required>
-              <option value="department one">Department One</option>
-              <option value="department two">Department Two</option>
-              <option value="department three">Department Three</option>
-              <option value="department four">Department Four</option>
-            </select>
-          </div>
-          <div class="form__group">
-            <label for="doctor">Select Doctor</label>
-            <select name="doctor" id="doctor" required>
-              <option value="doctor one">Doctor One</option>
-              <option value="doctor two">Doctor Two</option>
-              <option value="doctor three">Doctor Three</option>
-              <option value="doctor four">Doctor Four</option>
-            </select>
-          </div>
-          <div class="form__group">
-            <label for="message">Additional Message</label>
-            <textarea name="Added Message" id="message" rows="6" placeholder="Add a Message" required></textarea>
-          </div>
-          <input type="submit" value="Submit-Requist" class="btn-primary">
-        </form>
+<form action="https://formspree.io/f/xqaerody" method="POST">
+  <div class="form__group">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter Your Name" name="name" id="name" required>
+  </div>
+  <div class="form__group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" placeholder="Enter Your Number" name="phone" id="phone" required>
+  </div>
+  <div class="form__group">
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date" required>
+  </div>
+  <div class="form__group">
+    <label for="department">Select Department</label>
+    <select name="department" id="department" required>
+      <option value="Department One">Department One</option>
+      <option value="Department Two">Department Two</option>
+      <option value="Department Three">Department Three</option>
+      <option value="Department Four">Department Four</option>
+    </select>
+  </div>
+  <div class="form__group">
+    <label for="doctor">Select Doctor</label>
+    <select name="doctor" id="doctor" required>
+      <option value="Doctor One">Doctor One</option>
+      <option value="Doctor Two">Doctor Two</option>
+      <option value="Doctor Three">Doctor Three</option>
+      <option value="Doctor Four">Doctor Four</option>
+    </select>
+  </div>
+  <div class="form__group">
+    <label for="message">Additional Message</label>
+    <textarea name="message" id="message" rows="6" placeholder="Add a Message" required></textarea>
+  </div>
+  <button type="submit" class="btn-primary">Submit Request</button>
+</form>
       </div>
     </section>
     <footer>
